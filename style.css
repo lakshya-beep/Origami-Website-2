@@ -1,0 +1,16 @@
+
+.Texter{
+color:#0015ff;
+    text-decoration-color: aqua;
+    text-align: center;
+    text-decoration: dotted;
+    background-image: url("b.jpg");
+}
+
+.animals{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   background: #1ff0aa;
+}
+
