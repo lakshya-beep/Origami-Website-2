@@ -12,5 +12,11 @@ color:#0015ff;
     flex-wrap: wrap;
     justify-content: space-between;
    background: #1ff0aa;
+
+}
+
+.combined{
+    border-radius: 50%;
+
 }
 
