@@ -16,7 +16,36 @@ color:#0015ff;
 }
 
 .combined{
-    border-radius: 50%;
-
+position: relative;
 }
 
+.combined p{
+    position : absolute;
+background-color: grey;
+font-size:50px;
+   margin-top: 50%;
+margin-left: 50%;
+transform: translate(-50%,-50%);
+opacity: 0;
+}
+
+.combined:hover img{
+    opacity: 0.33;
+    }
+
+    .combined{
+    
+        flex-grow: 10px cyan;
+         box-shadow: 5px 2px 4px #000000; 
+        padding: 10px;
+        margin:10px;
+        border-radius: 15px 50px 30px 5px;
+        opacity: 0.99;
+
+a:link{
+color: #870000;
+}
+
+a:visited{
+color: #870000;
+}
